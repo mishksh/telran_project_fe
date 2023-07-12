@@ -1,0 +1,99 @@
+.order_container {
+    width: 496px;
+    height: 430px;
+    border: 2px solid #000000;
+    border-radius: 21px;
+}
+
+#title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.totalby {
+    margin-left: 25px;
+    margin-right: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 47px;
+}
+
+#total {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#sum {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.currency {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form {
+    margin-top: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.form input {
+    height: 73px;
+    width: 446px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.03em;
+    color: #929292;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form button {
+    background: #339933;
+    border-radius: 17px;
+    width: 446px;
+    height: 76px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+    border: 0px solid #339933;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.form button:hover,
+.form button:focus {
+    background-color: #01b024;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+#message_error {
+    font-size: 20px;
+    color: red;
+    text-align: end;
+}

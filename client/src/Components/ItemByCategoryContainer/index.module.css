@@ -1,0 +1,24 @@
+.block_form {
+  display: flex;
+  gap: 40px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 81px;
+}
+
+.by_category_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 1440px;
+}
+
+#title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 49px;
+  margin-bottom: 8px;
+}

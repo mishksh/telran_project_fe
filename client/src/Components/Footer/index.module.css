@@ -1,0 +1,94 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 370px 563px;
+  width: 1440px;
+  height: 933px;
+  margin: 0 auto;
+  row-gap: 40px;
+  padding-top: 48px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact_name {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.phone {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 130%;
+  width: 649px;
+}
+
+.social_networks {
+  display: flex;
+  gap: 68px;
+  text-align: center;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 96px;
+}
+
+.address_style {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.address_name {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  text-decoration-line: underline;
+  color: #000000;
+  max-width: 564px;
+}
+
+.working_hours {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.working_time {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.map_container {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding-bottom: 38px;
+}
+
+.map_container iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

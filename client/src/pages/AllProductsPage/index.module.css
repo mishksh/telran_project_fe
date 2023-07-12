@@ -1,0 +1,20 @@
+.all_products {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.all_products h1 {
+    padding-top: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.form {
+    display: flex;
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 81px;
+}

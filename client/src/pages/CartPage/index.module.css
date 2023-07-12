@@ -1,0 +1,37 @@
+.main_page {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.main_page a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.cart_page {
+    display: grid;
+    grid-template-columns: 914px 496px;
+    justify-content: center;
+    align-items: start;
+    margin-top: 34px;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 49px;
+    margin-bottom: 16px;
+}
+
+#back {
+    display: flex;
+    margin-left: 50px;
+    gap: 21.2px;
+    margin-left: 649px;
+}

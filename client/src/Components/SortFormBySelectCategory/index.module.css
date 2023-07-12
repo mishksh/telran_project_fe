@@ -1,0 +1,26 @@
+.sort_form{
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+#sorted {
+    width: 219px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #797979;
+    padding-left: 10px;
+    background-color: white;
+}
+
+#sort_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}

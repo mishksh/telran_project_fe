@@ -1,0 +1,81 @@
+.discount_container {
+    width: 1440px;
+    height: 476px;
+    background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 91px;
+    gap: 199px;
+    margin-bottom: 49px;
+}
+
+#discount_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    color: #FFFFFF;
+}
+
+#discount {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    padding-bottom: 46px;
+}
+
+.discount_btn {
+    width: 473px;
+    height: 75.44px;
+    border: 2.39494px solid #FFFFFF;
+    border-radius: 25.1468px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.7392px;
+    line-height: 120%;
+    color: #FFFFFF;
+    background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.discount_btn:hover,
+.discount_btn:focus {
+    background: #01b024; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30.52px;
+    padding-right: 255px;
+}
+
+.form input {
+    width: 473px;
+    height: 75.44px;
+    background: #FFFFFF;
+    border-radius: 25.1468px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: #6C6C6C;
+    padding-left: 50px; 
+}
+
+.message_error{
+    color: #6C6C6C;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}

@@ -1,0 +1,57 @@
+.sale_block {
+    width: 1440px;
+    height: 600px;
+    background: #A1E2EB;
+    margin: 0 auto;
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    position: relative;
+}
+
+.sale_block img {
+    width: 641px;
+    height: 641px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.sale_style a {
+    text-decoration: none;
+    color: black;
+}
+
+#sale {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+    padding-bottom: 3px;
+}
+
+#season {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+#sale_btn {
+    border: 0px solid white;
+    background: #FFFFFF;
+    border-radius: 13px;
+    width: 155px;
+    height: 82px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    line-height: 82px;
+}
+

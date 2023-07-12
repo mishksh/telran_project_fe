@@ -1,0 +1,10 @@
+.categories_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 32px;
+    margin: 20px auto 112px;
+    max-width: 1440px;
+    justify-content: center;
+}
+  

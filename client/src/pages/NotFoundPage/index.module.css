@@ -1,0 +1,7 @@
+.picture_404 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+}

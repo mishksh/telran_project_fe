@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  width: 1384px;
+  margin: 0 auto;
+}
+
+header>div {
+  display: flex;
+  gap: 60px;
+}
+
+header nav {
+  display: flex;
+  gap: 40px;
+  width: 750px;
+  justify-content: end;
+}
+
+.catalog_btn {
+  padding: 15px 30px;
+  background-color: #339933;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
