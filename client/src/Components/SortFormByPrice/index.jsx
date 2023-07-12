@@ -6,6 +6,7 @@ import { filterProductByPriceAction } from '../../store/reducers/productReducer'
 
 
 export default function SortFormByPrice() {
+  
   const dispatch = useDispatch();
 
   const filterPriceCategory = () => {

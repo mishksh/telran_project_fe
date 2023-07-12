@@ -4,12 +4,12 @@ import NavMenu from './Components/NavMenu';
 import HomePage from './pages/HomePage';
 import CategoriesPage from './pages/CategoriesPage';
 import AllProductsPage from './pages/AllProductsPage';
-import SingleItemPage from './pages/SingleItemPage';
 import SalesPage from './pages/SalesPage';
 import SingleCategoryPage from './pages/SingleCategoryPage';
 import CartPage from './pages/CartPage';
 import NotFoundPage from './pages/NotFoundPage';
 import Footer from './Components/Footer';
+import SingleProductPage from './pages/SingleProductPage';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='categories' element={<CategoriesPage />} />
         <Route path='all_products' element={<AllProductsPage />} />
-        <Route path='/product/:productId' element={<SingleItemPage />} />
+        <Route path='/product/:productId' element={<SingleProductPage />} />
         <Route path='sales' element={<SalesPage />} />
         <Route path='/category/:categoryId' element={<SingleCategoryPage />} />
         <Route path='cart' element={<CartPage />} />

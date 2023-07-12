@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 import { getCategories, getSingleCategory } from '../../async_actions/categories_req';
-import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import ProductItem from '../ProductItem'
 import s from './index.module.css'

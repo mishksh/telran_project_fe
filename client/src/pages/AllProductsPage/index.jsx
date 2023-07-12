@@ -7,7 +7,7 @@ import SortFormByCheckBox from '../../Components/SortFormByCheckBox'
 
 
 
-export default function AllItemsPage() {
+export default function AllProductsPage() {
 
   return (
     <div className={s.all_products}>
