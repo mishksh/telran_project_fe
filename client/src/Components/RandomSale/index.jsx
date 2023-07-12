@@ -5,7 +5,7 @@ import { getAllSaleProducts } from '../../async_actions/products_req';
 import s from './index.module.css'
 
 
-export default function RandomSales() {
+export default function RandomSale() {
 
     const dispatch = useDispatch();
 

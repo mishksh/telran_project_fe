@@ -1,10 +1,10 @@
 import React from 'react'
-import SaleItem from '../../Components/SaleItem'
-import DiscountContainer from '../../Components/DiscountContainer'
-import MainCategories from '../../Components/MainCategories'
+import SaleItem from '../../components/SaleItem'
+import MainCategories from '../../components/MainCategories'
+import DiscountContainer from '../../components/DiscountContainer'
 import s from './index.module.css'
 import { Link } from 'react-router-dom'
-import RandomSales from '../../Components/RandomSales'
+import RandomSale from '../../components/RandomSale'
 
 
 
@@ -20,7 +20,7 @@ export default function HomePage() {
       <MainCategories />
       <DiscountContainer />
       <h2>Sale</h2>
-      <RandomSales />
+      <RandomSale />
     </div>
   )
 }

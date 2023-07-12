@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import sign from '../../media/moreSign.png'
-import CartContainer from '../../Components/CartContainer'
-import OrderContainer from '../../Components/OrderContainer'
+import CartContainer from '../../components/CartContainer'
+import OrderContainer from '../../components/OrderContainer'
 import s from './index.module.css'
 
 

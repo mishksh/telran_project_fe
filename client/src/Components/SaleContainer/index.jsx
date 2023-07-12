@@ -6,7 +6,7 @@ import ProductItem from '../ProductItem';
 
 
 
-export default function SalesContainer() {
+export default function SaleContainer() {
 
     const dispatch = useDispatch();
 

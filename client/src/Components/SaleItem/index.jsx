@@ -10,7 +10,7 @@ export default function SaleItem() {
       <div className={s.sale_style}>
         <p id={s.sale}>Sale</p>
         <p id={s.season}>New season</p>
-        <Link to='/sales'><div id={s.sale_btn}>Sale</div></Link>
+        <Link to='sales'><div id={s.sale_btn}>Sale</div></Link>
       </div>
       <img src={bush} alt='bush' />
     </div>

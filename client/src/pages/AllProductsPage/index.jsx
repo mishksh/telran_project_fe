@@ -1,9 +1,9 @@
 import React from 'react'
-import ProductsContainer from '../../Components/ProductsContainer'
+import ProductsContainer from '../../components/ProductsContainer'
 import s from './index.module.css'
-import SortFormByPrice from '../../Components/SortFormByPrice'
-import SortFormBySelect from '../../Components/SortFormBySelect'
-import SortFormByCheckBox from '../../Components/SortFormByCheckBox'
+import SortFormByPrice from '../../components/SortFormByPrice'
+import SortFormByCheckBox from '../../components/SortFormByCheckBox'
+import SortFormBySelect from '../../components/SortFormBySelect'
 
 
 

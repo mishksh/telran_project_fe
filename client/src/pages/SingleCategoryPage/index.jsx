@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemByCategoryContainer from '../../Components/ItemByCategoryContainer';
+import ItemByCategoryContainer from '../../components/ItemByCategoryContainer';
 import s from './index.module.css'
 
 

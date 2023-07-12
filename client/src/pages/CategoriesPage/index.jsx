@@ -1,5 +1,5 @@
 import React from 'react'
-import CategoriesContainer from '../../Components/CategoriesContainer'
+import CategoriesContainer from '../../components/CategoriesContainer'
 import s from './index.module.css'
 
 
