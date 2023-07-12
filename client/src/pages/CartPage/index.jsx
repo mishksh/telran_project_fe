@@ -12,7 +12,7 @@ export default function CartPage() {
   return (
     <div className={s.main_page}>
       <h1 className={s.title}>Shopping cart</h1>
-      <Link to='/all_items'><div id={s.back}>
+      <Link to='/all_products'><div id={s.back_to_the_store}>
         <p>Back to the store</p>
         <img src={sign} alt='sign' />
       </div>
