@@ -1,23 +1,22 @@
 import React, {useEffect} from 'react'
-import { addToCartAction } from '../../store/reducers/cartReducer';
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom';
 import { getSingleProduct } from '../../async_actions/products_req';
-import { useSelector } from 'react-redux';
+import { addToCartAction } from '../../store/reducers/cartReducer';
 import s from './index.module.css'
 
 
 
 export default function SingleItemPage() {
 
-  const addToCart = () => dispatch(addToCartAction({id: +id, title, image, price, description, discont_price}))
+  const addToCart = () => dispatch(addToCartAction({id: +id, title, image, price, description, discont_price, category}))
   const dispatch = useDispatch();
   const {productId} = useParams();
   useEffect(()=>{
     dispatch(getSingleProduct(productId))
   }, [])
   const singleProduct_state = useSelector(state => state.singleProduct);
-  const {id, title, image, price, description, discont_price} = singleProduct_state;
+  const {id, title, image, price, description, discont_price, category} = singleProduct_state;
   const sale = Math.round((price - discont_price)/ price * 100);
 
   
@@ -38,6 +37,7 @@ export default function SingleItemPage() {
             <p id={s.description}>Description</p>
             <p id={s.description_full}>{description}</p>
             </div>
+
       </div>
     </div>
   )

@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react';
 import ProductItem from '../ProductItem';
 import { getAllSaleProducts } from '../../async_actions/products_req';
 import s from './index.module.css'

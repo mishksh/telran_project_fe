@@ -1,8 +1,8 @@
 import React from 'react'
-import SalesContainer from '../../Components/SalesContainer'
 import s from './index.module.css'
 import SortFormByPrice from '../../Components/SortFormByPrice'
 import SortFormSelect from '../../Components/SortFormBySelect'
+import SalesContainer from '../../Components/SalesContainer'
 
 
 
