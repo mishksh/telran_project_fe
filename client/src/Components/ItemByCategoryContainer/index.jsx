@@ -1,15 +1,14 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import { getSingleCategory } from '../../async_actions/categories_req';
+import { getCategories, getSingleCategory } from '../../async_actions/categories_req';
 import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import ProductItem from '../ProductItem'
 import s from './index.module.css'
 import SortFormByPriceCategory from '../SortFormByPriceCategory';
 import SortFormByCheckBoxCategory from '../SortFormByCheckBoxCategory';
 import SortFormBySelectCategory from '../SortFormBySelectCategory';
-import { getCategories } from '../../async_actions/categories_req';
+
 
 
 export default function ItemByCategoryContainer() {

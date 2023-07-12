@@ -5,7 +5,6 @@ import { filterProductsByCheckbox } from '../../store/reducers/productReducer';
 
 
 
-
 export default function SortFormByCheckBox() {
 
     const dispatch = useDispatch();

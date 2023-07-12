@@ -10,18 +10,18 @@ export const discountRequest = (data, reset) => {
       body: JSON.stringify(data),
     };
   
-    fetch(url, requestOptions)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Request is failed');
-        }
-        console.log('Your request has been done');
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-      reset();
-  };
+      fetch(url, requestOptions)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('Request is failed');
+          }
+          console.log('Your request has been done');
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+        reset();
+    };
   
   
   

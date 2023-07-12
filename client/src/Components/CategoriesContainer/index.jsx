@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
-import { useSelector } from 'react-redux'
-import { useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { getCategories } from '../../async_actions/categories_req';
 import Category from '../Category';
 import s from './index.module.css'

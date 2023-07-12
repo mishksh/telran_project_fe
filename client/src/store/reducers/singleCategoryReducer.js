@@ -25,9 +25,9 @@ export const singleCategoryReducer = (state = [], action) => {
             state.sort((a, b) => a[action.payload].localeCompare(b[action.payload]));
         } else if (action.payload === 'price') {
             state.sort((a, b) => a[action.payload] - b[action.payload]);
-        } else if (action.payload === 'titleZ') {
+        } else if (action.payload === 'title_desc') {
             state.sort((a, b) => b['title'].localeCompare(a['title']));
-        } else if (action.payload === 'priceLess') {
+        } else if (action.payload === 'price_desc') {
             state.sort((a, b) => {
                 const newPriceA = a['discont_price'] || a['price'];
                 const newPriceB = b['discont_price'] || b['price'];

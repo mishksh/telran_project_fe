@@ -17,9 +17,9 @@ export default function SortFormBySelect() {
             <select id={s.sorted} onInput={sort}>
                 <option value='default'>By default</option>
                 <option value='price'>Price low to high</option>
-                <option value='priceLess'>Price high to low</option>
+                <option value='price_desc'>Price high to low</option>
                 <option value='title'>Name A to Z</option>
-                <option value='titleZ'>Name Z to A</option>
+                <option value='title_desc'>Name Z to A</option>
             </select>
         </div>
     );
