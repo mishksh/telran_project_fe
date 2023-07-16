@@ -38,7 +38,7 @@ export default function Footer() {
 
       <div className={s.address}>
         <p className={s.address_style}>Address:</p>
-        <a className={s.address_name} href='https://www.google.com/search?q=telranDE'>Linkstraße 2, 8 OG, 10785, Berlin, Deutschland</a>
+        <a className={s.address_name} href='https://tel-ran.de/'>Linkstraße 2, 8 OG, 10785, Berlin, Deutschland</a>
           <div>
           <figure>
             <a>
