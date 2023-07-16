@@ -2,7 +2,8 @@ import React from 'react'
 import s from './index.module.css'
 import whatsApp from '../../media/whatsApp.png'
 import instagram from '../../media/instagram.png'
-
+import telegram from '../../media/telegram.svg'
+import clock from '../../media/clock.svg'
 
 
 export default function Footer() {
@@ -26,6 +27,12 @@ export default function Footer() {
             </a>
             <figcaption>WhatsApp</figcaption>
           </figure>
+          <figure>
+            <a href="https://web.telegram.org/">
+              <img src={telegram} alt='telegram' width='44' height='44' />
+            </a>
+            <figcaption>Telegram</figcaption>
+          </figure>
         </div>
       </div>
 
@@ -33,6 +40,11 @@ export default function Footer() {
         <p className={s.address_style}>Address</p>
         <a className={s.address_name} href='https://www.google.com/search?q=telranDE'>Linkstraße 2, 8 OG, 10785, Berlin, Deutschland</a>
           <div>
+          <figure>
+            <a>
+              <img src={clock} alt='telegram' width='44' height='44' />
+            </a>
+          </figure>
             <p className={s.working_hours}>Working hours:</p>
             <p className={s.working_time}> 24 hours a day</p>
           </div>

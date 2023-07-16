@@ -9,13 +9,13 @@ export default function SortFormByCheckBoxCategory() {
 
     const dispatch = useDispatch();
 
-    const filter_checkbox = event => dispatch(filterProductsCategoryByCheckbox(event.target.checked));
+    const toggle_checkbox = event => dispatch(filterProductsCategoryByCheckbox(event.target.checked));
 
     return (
         <form>
             <label className={s.discount_form}>
                 <span>Discounted items</span>
-                <input name="discount" type="checkbox" onChange={filter_checkbox} />
+                <input name="discount" type="checkbox" onChange={toggle_checkbox} />
             </label>
         </form>
     );
