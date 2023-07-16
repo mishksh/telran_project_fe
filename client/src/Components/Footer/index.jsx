@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className={s.footer}>
       <div className={s.contact}>
-        <p className={s.contact_name}>Contact</p>
+        <p className={s.contact_name}>Contact:</p>
         <p className={s.phone}>+49 999 999 99 99</p>
 
         <div className={s.social_networks}>
@@ -37,7 +37,7 @@ export default function Footer() {
       </div>
 
       <div className={s.address}>
-        <p className={s.address_style}>Address</p>
+        <p className={s.address_style}>Address:</p>
         <a className={s.address_name} href='https://www.google.com/search?q=telranDE'>Linkstraße 2, 8 OG, 10785, Berlin, Deutschland</a>
           <div>
           <figure>
